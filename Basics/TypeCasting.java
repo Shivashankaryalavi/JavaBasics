@@ -1,14 +1,13 @@
 package Basics;
-
+import java.util.*;
 public class TypeCasting {
     public static void main(String[] args) {
-        double d = 10.12;
-        int a = (int)d;
-        System.out.println(a);
-
-        //Also second way 
-        int c = (int)10.12;
-        System.out.println(c);
+        Scanner sc = new Scanner(System.in);
+        int big = 130;
+        byte small =(byte)big;
+        System.out.println("After casting :  " + small);
     }
+
     
 }
+
