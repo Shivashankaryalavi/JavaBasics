@@ -1,4 +1,4 @@
-package Operators;
+package conditionals;
 import java.util.*;
 
 public class Positive {
