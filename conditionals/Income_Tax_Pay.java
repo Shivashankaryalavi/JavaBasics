@@ -24,7 +24,7 @@ public class Income_Tax_Pay {
        }
        if(income>300000){
         tax+= (income-300000)*0.05;
-        
+    
        }
        
        System.out.println("The tax you paid is " + tax);
