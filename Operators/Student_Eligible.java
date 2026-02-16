@@ -4,7 +4,7 @@ public class Student_Eligible {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a internal marks :");
+        System.out.println("Enter a Operator :");
         double marks = sc.nextDouble();
         System.out.println("Enter your attendance :");
         double attendance = sc.nextDouble();
