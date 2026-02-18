@@ -66,6 +66,7 @@ public class BankManagement{
                 balance-=withdraw;
                 System.out.println("Remaining balance after withdraw :" + balance);
             } 
+            break;
         default :
                 System.out.println("Exit");
 
