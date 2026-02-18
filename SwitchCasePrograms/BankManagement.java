@@ -68,7 +68,7 @@ public class BankManagement{
             } 
             break;
         default :
-                System.out.println("Exit");
+                System.out.println("Thankyou for being with us");
 
 
 
