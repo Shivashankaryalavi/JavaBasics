@@ -11,7 +11,7 @@ public class ReverseArray {
         for(int i =0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println("Reverse an array");
+        System.out.println("Reversed array");
         for(int i = arr.length-1;i>=0;i--){
             System.out.print(arr[i]+" ");
         }
