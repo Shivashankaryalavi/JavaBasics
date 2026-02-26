@@ -40,7 +40,8 @@ public class BankManagement{
                         System.out.println("You are succesfully created an account");
                     }
                 } 
-              break;
+                break;
+              
         
         
         case 2:
