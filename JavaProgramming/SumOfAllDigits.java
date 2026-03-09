@@ -1,3 +1,6 @@
+/*
+        Write a program to find sum of all digits
+ */
 package JavaProgramming;
 import java.util.Scanner;
 public class SumOfAllDigits {
@@ -6,9 +9,9 @@ public class SumOfAllDigits {
         Scanner sc = new Scanner(System.in);
         int sum =0;
         System.out.println("Enter a number :");
-        int num =sc.nextInt();
+        long num =sc.nextLong();
         while(num >0){
-            int lastDigit = num%10;
+            long lastDigit = num%10;
             sum+=lastDigit;
             num/=10;
         }
