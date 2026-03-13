@@ -1,0 +1,8 @@
+public class MethodOverriding{
+     class Employee{
+        void action(){
+            System.Out.Printb
+
+        }
+     }
+}
