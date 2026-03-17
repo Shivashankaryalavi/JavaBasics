@@ -7,7 +7,7 @@ public class Primenumber {
         System.out.println("Enter a number : ");
         int num = sc.nextInt();
         int count =0;
-        for(int i =2;i*i<=num;i++){
+        for(int i =1;i<=num;i++){
             if(num%i==0){
                 count++;
             }
