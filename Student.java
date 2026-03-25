@@ -1,4 +1,4 @@
-package Constructor;
+
 
 public class Student {
 
@@ -17,7 +17,7 @@ public class Student {
         s.name="Shivashankar";
         
         System.out.println(s.id);
-        System.out.println(s.name);p
+        System.out.println(s.name);
     }
     
 }
