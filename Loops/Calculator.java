@@ -26,7 +26,7 @@ public class Calculator {
                         System.out.println("Sum is : " +(a+b));
                         break;
                     case 2:
-                        System.out.println("sub is: "+(a-b));
+                        System.out.println("Sub is: "+(a-b));
                         break;
                     case 3:
                         System.out.println("Mul is:" +(a*b));
@@ -51,5 +51,6 @@ public class Calculator {
         }
         while(choice!=5);
         System.out.println("Calculator closed");
+        sc.close();
     }
 }
